@@ -7,7 +7,7 @@ const ImgCover = () => {
   const [booksFlag, setBooksFlag] = useState(false);
   const [result, setResult] = useState(null);
 
-  const url = `http://openlibrary.org/search.json?title=${value}`;
+  const url = `https://openlibrary.org/search.json?title=${value}`;
   const handelBooks = (e) => {
     e.preventDefault();
 
